@@ -1,0 +1,1 @@
+{"$schema": "http://json-schema.org/draft-04/hyper-schema#", "id": "http://unis.crest.iu.edu/schema/ext/flow/1/flow#", "description": "A network flow object", "name": "Flow", "type": "object", "allOf": [{"$ref": "http://unis.crest.iu.edu/schema/20160630/path#"}], "properties": {"directed": {"type": "boolean", "enum": [true]}}}
